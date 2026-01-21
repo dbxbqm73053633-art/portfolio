@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>김영우 | AI 기반 UI/UX · Web & App Portfolio</title>
-  <meta name="description" content="AI를 활용한 UI/UX 디자인(Figma/PS/AI)과 HTML/CSS/JS 구현 포트폴리오 - 김영우" />
+  <title>김영우 | UX-Driven Developer & Designer</title>
+  <meta name="description" content="AI 기반 UI/UX 설계와 프론트엔드 구현 포트폴리오 - 김영우" />
   <link rel="stylesheet" href="./css/index.css" />
 </head>
 
@@ -14,12 +14,12 @@
     <div class="container header__inner">
       <a href="#top" class="brand" aria-label="홈으로">
         <span class="brand__mark" aria-hidden="true">
-          <span class="dot"></span>
-          <span class="grid"></span>
+          <span class="brand__markText">YW</span>
+          <span class="brand__shine"></span>
         </span>
         <span class="brand__text">
           <strong>KIM YOUNG WOO</strong>
-          <em>AI · UI/UX / Web & App Designer</em>
+          <em>UX-Driven Developer & Designer</em>
         </span>
       </a>
 
@@ -28,10 +28,11 @@
           <span></span><span></span><span></span>
         </button>
         <ul class="nav__list" id="navList">
+          <li><a href="#top">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#design">Design</a></li>
-          <li><a href="#web">Web</a></li>
           <li><a href="#skills">Skills</a></li>
+          <li><a href="#design">Design</a></li>
+          <li><a href="#developer">Developer</a></li>
           <li><a href="#contact" class="btn btn--sm">Contact</a></li>
         </ul>
       </nav>
@@ -41,206 +42,159 @@
   <main>
     <!-- Hero -->
     <section class="hero" aria-label="메인 소개">
-      <!-- 파노라마 장식 -->
-      <div class="panorama" aria-hidden="true">
-        <div class="panorama__mask"></div>
-
-        <!-- 트랙 1 -->
-        <div class="panorama__row panorama__row--a">
-          <div class="panorama__track" data-panorama-track>
-            <!-- 세트 1 -->
-            <figure class="pitem">
-              <img src="./images/avatatq.png" alt="" loading="lazy" />
-              <span class="pitem__cap">Megabox Cinema UI</span>
-            </figure>
-            <figure class="pitem">
-              <img src="./images/hells.png" alt="" loading="lazy" />
-              <span class="pitem__cap">Fitness Hub App</span>
-            </figure>
-            <figure class="pitem">
-              <img src="./images/bbang.png" alt="" loading="lazy" />
-              <span class="pitem__cap">Bakery Promotion</span>
-            </figure>
-            <figure class="pitem">
-              <img src="./images/Avatar.png" alt="" loading="lazy" />
-              <span class="pitem__cap">Cinema Curation</span>
-            </figure>
-            <figure class="pitem">
-              <img src="./images/hells2.png" alt="" loading="lazy" />
-              <span class="pitem__cap">Brand Board</span>
-            </figure>
-            <figure class="pitem">
-              <img src="./images/pure.png" alt="" loading="lazy" />
-              <span class="pitem__cap">Pure Water Ad</span>
-            </figure>
-            <figure class="pitem">
-              <img src="./images/Subway.png" alt="" loading="lazy" />
-              <span class="pitem__cap">Subway Board</span>
-            </figure>
-            <figure class="pitem">
-              <img src="./images/super.png" alt="" loading="lazy" />
-              <span class="pitem__cap">Mobile Ticket UI</span>
-            </figure>
-
-            <!-- 세트 2 (무한 루프용 복제) -->
-            <figure class="pitem">
-              <img src="./images/avatatq.png" alt="" loading="lazy" />
-              <span class="pitem__cap">Megabox Cinema UI</span>
-            </figure>
-            <figure class="pitem">
-              <img src="./images/hells.png" alt="" loading="lazy" />
-              <span class="pitem__cap">Fitness Hub App</span>
-            </figure>
-            <figure class="pitem">
-              <img src="./images/bbang.png" alt="" loading="lazy" />
-              <span class="pitem__cap">Bakery Promotion</span>
-            </figure>
-            <figure class="pitem">
-              <img src="./images/Avatar.png" alt="" loading="lazy" />
-              <span class="pitem__cap">Cinema Curation</span>
-            </figure>
-            <figure class="pitem">
-              <img src="./images/hells2.png" alt="" loading="lazy" />
-              <span class="pitem__cap">Brand Board</span>
-            </figure>
-            <figure class="pitem">
-              <img src="./images/pure.png" alt="" loading="lazy" />
-              <span class="pitem__cap">Pure Water Ad</span>
-            </figure>
-            <figure class="pitem">
-              <img src="./images/Subway.png" alt="" loading="lazy" />
-              <span class="pitem__cap">Subway Board</span>
-            </figure>
-            <figure class="pitem">
-              <img src="./images/super.png" alt="" loading="lazy" />
-              <span class="pitem__cap">Mobile Ticket UI</span>
-            </figure>
+      <div class="hero__bg" aria-hidden="true">
+        <div class="panorama" aria-hidden="true">
+          <div class="panorama__track">
+            <img src="./images/any.png" alt="" loading="lazy" />
+            <img src="./images/busan.png" alt="" loading="lazy" />
+            <img src="./images/hub.png" alt="" loading="lazy" />
+            <img src="./images/mo.png" alt="" loading="lazy" />
+            <img src="./images/today.png" alt="" loading="lazy" />
+            <img src="./images/love.png" alt="" loading="lazy" />
+            <img src="./images/Subway.png" alt="" loading="lazy" />
+            <img src="./images/Avatar.png" alt="" loading="lazy" />
+            <img src="./images/bbang.png" alt="" loading="lazy" />
+            <!-- loop -->
+            <img src="./images/any.png" alt="" loading="lazy" />
+            <img src="./images/busan.png" alt="" loading="lazy" />
+            <img src="./images/hub.png" alt="" loading="lazy" />
+            <img src="./images/mo.png" alt="" loading="lazy" />
+            <img src="./images/today.png" alt="" loading="lazy" />
+            <img src="./images/love.png" alt="" loading="lazy" />
+            <img src="./images/Subway.png" alt="" loading="lazy" />
+            <img src="./images/Avatar.png" alt="" loading="lazy" />
+            <img src="./images/bbang.png" alt="" loading="lazy" />
           </div>
         </div>
-
-        <!-- 트랙 2 (반대 방향 + 살짝 다르게) -->
-        <div class="panorama__row panorama__row--b">
-          <div class="panorama__track panorama__track--rev" data-panorama-track>
-            <!-- 세트 1 -->
-            <figure class="pitem pitem--tall">
-              <img src="./images/any.png" alt="" loading="lazy" />
-              <span class="pitem__cap">Pet Travel UI</span>
-            </figure>
-            <figure class="pitem pitem--tall">
-              <img src="./images/busan.png" alt="" loading="lazy" />
-              <span class="pitem__cap">Busan Food App</span>
-            </figure>
-            <figure class="pitem pitem--tall">
-              <img src="./images/hub.png" alt="" loading="lazy" />
-              <span class="pitem__cap">Fitness Hub (Web)</span>
-            </figure>
-            <figure class="pitem pitem--tall">
-              <img src="./images/mo.png" alt="" loading="lazy" />
-              <span class="pitem__cap">OTTMOVI</span>
-            </figure>
-            <figure class="pitem pitem--tall">
-              <img src="./images/today.png" alt="" loading="lazy" />
-              <span class="pitem__cap">Weather Today</span>
-            </figure>
-
-            <!-- 세트 2 (무한 루프용 복제) -->
-            <figure class="pitem pitem--tall">
-              <img src="./images/any.png" alt="" loading="lazy" />
-              <span class="pitem__cap">Pet Travel UI</span>
-            </figure>
-            <figure class="pitem pitem--tall">
-              <img src="./images/busan.png" alt="" loading="lazy" />
-              <span class="pitem__cap">Busan Food App</span>
-            </figure>
-            <figure class="pitem pitem--tall">
-              <img src="./images/hub.png" alt="" loading="lazy" />
-              <span class="pitem__cap">Fitness Hub (Web)</span>
-            </figure>
-            <figure class="pitem pitem--tall">
-              <img src="./images/mo.png" alt="" loading="lazy" />
-              <span class="pitem__cap">OTTMOVI</span>
-            </figure>
-            <figure class="pitem pitem--tall">
-              <img src="./images/today.png" alt="" loading="lazy" />
-              <span class="pitem__cap">Weather Today</span>
-            </figure>
-          </div>
-        </div>
-
-        <div class="panorama__glow" aria-hidden="true"></div>
       </div>
-
-      <!-- 실제 컨텐츠 -->
       <div class="container hero__inner">
         <div class="hero__copy reveal">
-          <p class="pill">
-            <span class="pill__dot"></span>
-            AI 활용 · Figma 디자인 + HTML/CSS/JS 구현
-          </p>
+          <p class="kicker">UX 중심으로 설계하고, 바로 구현까지 하는</p>
 
-          <h1>
-            AI로 속도와 완성도를 끌어올리는<br />
-            <span class="grad">김영우</span>입니다.
+          <h1 class="hero__title">
+            창의적으로 AI를 활용하여 디자인 하고<br />
+            <span class="accent">빠르게 설계하고</span><br />
+            <span class="hero__name">끝까지 구현</span>합니다.
           </h1>
 
           <p class="hero__desc">
-            AI로 아이디어/카피/구조 초안을 빠르게 만들고,<br />
-            Figma(PS/AI 포함) + HTML/CSS/JS로 결과물을 완성합니다.
+            요구사항을 <b>AI로 빠르게 정리</b>하고, 디자인 시스템으로 구조화한 뒤<br />
+            <b>실제 서비스 수준의 반응형·접근성·인터랙션</b>을 갖춘 웹으로 완성합니다.
           </p>
 
           <div class="hero__cta">
-            <a class="btn" href="#design">Design 보기</a>
-            <a class="btn btn--ghost" href="#web">Web Projects 보기</a>
+            <a class="btn" href="#design">View My Works</a>
+            <a class="btn btn--ghost" href="#contact">Contact Me</a>
           </div>
 
-          <div class="hero__meta">
-            <div class="meta-card">
-              <span class="meta-card__k">Workflow</span>
-              <span class="meta-card__v">AI Draft → Figma 정리 → 구현</span>
-            </div>
-            <div class="meta-card">
-              <span class="meta-card__k">Design</span>
-              <span class="meta-card__v">Figma · PS · AI</span>
-            </div>
-            <div class="meta-card">
-              <span class="meta-card__k">Frontend</span>
-              <span class="meta-card__v">HTML · CSS · JS</span>
-            </div>
-          </div>
-
-          <div class="hero__hint muted">
-            * 파노라마 영역은 장식입니다. 마우스 올리면 잠시 멈춥니다.
+          <div class="hero__badges">
+            <span class="badge">AI 브리프 → IA/카피 → Figma 시스템화</span>
+            <span class="badge">접근성(ARIA/키보드) · 반응형 · 퍼포먼스</span>
+            <span class="badge">HTML · CSS · JavaScript · Firebase</span>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- About (간결) -->
+    <!-- About -->
     <section class="section" id="about">
       <div class="container">
         <div class="section__head reveal">
           <h2>About</h2>
-          <p>AI로 초안을 만들고, 디자인 시스템으로 정리한 뒤 웹으로 구현합니다.</p>
+          <p>채용 기준(완성도·재현성·협업)을 충족하도록 “설계→구현→검증”까지 한 번에 가져갑니다.</p>
         </div>
 
-        <div class="about-compact reveal">
-          <div class="about-compact__card">
-            <h3>핵심</h3>
+        <div class="about reveal">
+          <div class="about__card">
+            <h3>AI 기반 문제정의·정보구조(IA)</h3>
             <p class="muted">
-              빠르게 “보이는 결과”를 만들고, 그리드/타이포/컴포넌트 기준으로 정리해 완성도를 올립니다.
+              ChatGPT/AI 도구로 요구사항을 구조화하고, IA·카피·컴포넌트 초안을 빠르게 도출합니다.
+              Figma에서 그리드·타이포·컴포넌트 기준으로 정교화해 재사용 가능한 UI를 만듭니다.
             </p>
           </div>
-
-          <div class="about-compact__card">
-            <h3>작업 방식</h3>
+          <div class="about__card">
+            <h3>디자인 시스템 기반 구현</h3>
             <p class="muted">
-              AI 초안 → Figma 정교화 → HTML/CSS/JS 구현까지 한 흐름으로 완성합니다.
+              목업에서 멈추지 않고, HTML/CSS/JS로 “바로 동작하는 화면”을 구현합니다.
+              반응형·접근성(키보드/ARIA)·마이크로 인터랙션을 함께 고려해 완성도를 끌어올립니다.
             </p>
           </div>
+          <div class="about__card">
+            <h3>협업·개선 루프</h3>
+            <p class="muted">
+              “빠른 프로토타입 → 피드백 → 개선”을 반복하며, 결과물을 눈에 보이게 만들고
+              기준(디자인 시스템/컴포넌트 규칙)으로 정리해 유지보수와 확장성을 확보합니다.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-          <div class="about-compact__actions">
-            <a class="btn" href="#design">Design</a>
-            <a class="btn btn--ghost" href="#web">Web Projects</a>
+    <!-- Skills -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2>Skills</h2>
+          <p>바로 투입 가능한 역량을 “설계/구현/검증” 관점으로 정리했습니다.</p>
+        </div>
+
+        <div class="tabs reveal" data-tabs>
+          <div class="tabs__nav" role="tablist" aria-label="Skills 탭">
+            <button class="tabs__btn is-active" type="button" role="tab" aria-selected="true" data-tab="skill">Skills</button>
+            <button class="tabs__btn" type="button" role="tab" aria-selected="false" data-tab="license">License</button>
+            <button class="tabs__btn" type="button" role="tab" aria-selected="false" data-tab="education">Education</button>
+          </div>
+
+          <!-- Skills panel -->
+          <div class="tabs__panel is-active" role="tabpanel" data-panel="skill">
+            <div class="bars" data-skill-bars>
+              <div class="bar" data-level="90">
+                <div class="bar__top">
+                  <span class="bar__label">UI/UX Design</span>
+                  <span class="bar__value"><span data-count>0</span>%</span>
+                </div>
+                <div class="bar__track"><span class="bar__fill"></span></div>
+              </div>
+
+              <div class="bar" data-level="85">
+                <div class="bar__top">
+                  <span class="bar__label">Web Development</span>
+                  <span class="bar__value"><span data-count>0</span>%</span>
+                </div>
+                <div class="bar__track"><span class="bar__fill"></span></div>
+              </div>
+
+              <div class="bar" data-level="80">
+                <div class="bar__top">
+                  <span class="bar__label">JavaScript / React</span>
+                  <span class="bar__value"><span data-count>0</span>%</span>
+                </div>
+                <div class="bar__track"><span class="bar__fill"></span></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- License panel -->
+          <div class="tabs__panel" role="tabpanel" data-panel="license">
+            <div class="panelCard">
+              <h3>License</h3>
+              <ul class="list">
+                <li>정보처리기능사</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Education panel -->
+          <div class="tabs__panel" role="tabpanel" data-panel="education">
+            <div class="panelCard">
+              <h3>Education</h3>
+              <p class="muted">
+                KD-아카데미 김포캠퍼스<br />
+                AI를 활용한 UI/UX 웹개발 과정 (2025.09.12 ~ 2026.01.13)
+              </p>
+              <h4>기타</h4>
+              <p class="muted">관련 기술 및 실무 프로젝트 연구</p>
+            </div>
           </div>
         </div>
       </div>
@@ -250,8 +204,8 @@
     <section class="section" id="design">
       <div class="container">
         <div class="section__head reveal">
-          <h2>Design Portfolio</h2>
-          <p>목업 결과물을 중심으로 정리했습니다. 클릭하면 크게 볼 수 있습니다.</p>
+          <h2>Design</h2>
+          <p>UI 목업 중심으로 정리했습니다. 카드 클릭(또는 Enter)으로 크게 확인할 수 있습니다.</p>
         </div>
 
         <div class="grid cards">
@@ -362,15 +316,31 @@
       </div>
     </section>
 
-    <!-- Web Projects -->
-    <section class="section" id="web">
+    <!-- Developer Projects -->
+    <section class="section" id="developer">
       <div class="container">
         <div class="section__head reveal">
-          <h2>Web Projects</h2>
-          <p>실제 작업물 Live 링크입니다. 썸네일은 프로젝트 화면 캡처로 표시합니다.</p>
+          <h2>Developer</h2>
+          <p>실제 동작하는 Live 작업물입니다. (GitHub Pages 배포)</p>
         </div>
 
         <div class="webgrid reveal">
+          <article class="wcard wcard--featured">
+            <a class="wcard__thumb" href="https://dbxbqm73053633-art.github.io/html/pal/index.html" target="_blank" rel="noopener">
+              <img src="./images/love.png" alt="팔레트(사진첩·메모) 앱 썸네일" loading="lazy">
+              <span class="wcard__tag">Firebase · Album · Memo</span>
+            </a>
+            <div class="wcard__body">
+              <h3>팔레트: 사진첩 · 메모 저장 앱</h3>
+              <p class="muted">Firebase로 사진/메모 CRUD 구현. 앱 아이콘을 제작해 모바일에서 홈 화면에 추가 후 바로 실행 가능한 구조로 설계.</p>
+              <div class="wcard__meta">
+                <span class="pillmini">Firebase</span><span class="pillmini">Storage</span><span class="pillmini">CRUD</span><span class="pillmini">Mobile</span>
+              </div>
+              <div class="wcard__links">
+                <a class="btn btn--sm" href="https://dbxbqm73053633-art.github.io/html/pal/index.html" target="_blank" rel="noopener">Live</a>
+              </div>
+            </div>
+          </article>
           <article class="wcard">
             <a class="wcard__thumb" href="https://dbxbqm73053633-art.github.io/html/app2" target="_blank" rel="noopener">
               <img src="./images/any.png" alt="반려동물 동반여행 서비스 썸네일" loading="lazy">
@@ -459,64 +429,65 @@
       </div>
     </section>
 
-    <!-- Skills -->
-    <section class="section" id="skills">
-      <div class="container">
-        <div class="section__head reveal">
-          <h2>Skills</h2>
-          <p>툴/기술은 로고 중심으로만 정리했습니다.</p>
-        </div>
-
-        <div class="skills-icons reveal" aria-label="Skills icons">
-          <div class="skills-icons__group">
-            <h3 class="skills-icons__title">Design</h3>
-            <ul class="skills-icons__list">
-              <li class="sicon" title="Figma" aria-label="Figma"><span class="sicon__svg sicon--figma" aria-hidden="true"></span></li>
-              <li class="sicon" title="Photoshop" aria-label="Photoshop"><span class="sicon__svg sicon--ps" aria-hidden="true"></span></li>
-              <li class="sicon" title="Illustrator" aria-label="Illustrator"><span class="sicon__svg sicon--ai" aria-hidden="true"></span></li>
-            </ul>
-          </div>
-
-          <div class="skills-icons__group">
-            <h3 class="skills-icons__title">Frontend</h3>
-            <ul class="skills-icons__list">
-              <li class="sicon" title="HTML" aria-label="HTML"><span class="sicon__svg sicon--html" aria-hidden="true"></span></li>
-              <li class="sicon" title="CSS" aria-label="CSS"><span class="sicon__svg sicon--css" aria-hidden="true"></span></li>
-              <li class="sicon" title="JavaScript" aria-label="JavaScript"><span class="sicon__svg sicon--js" aria-hidden="true"></span></li>
-            </ul>
-          </div>
-
-          <div class="skills-icons__group">
-            <h3 class="skills-icons__title">AI</h3>
-            <ul class="skills-icons__list">
-              <li class="sicon" title="AI Draft / Iteration" aria-label="AI Draft / Iteration">
-                <span class="sicon__svg sicon--spark" aria-hidden="true"></span>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <!-- Contact -->
     <section class="section section--contact" id="contact">
-      <div class="container contact reveal">
-        <h2>Contact</h2>
-        <p class="muted">연락 가능한 정보만 정리했습니다.</p>
+      <div class="container">
+        <div class="section__head reveal">
+          <h2>Contact</h2>
+          <p>프로젝트/협업 문의는 아래 폼으로 편하게 보내주세요.</p>
+        </div>
 
-        <div class="contact__grid contact__grid--simple">
-          <div class="contact__card">
-            <span class="contact__k">이메일</span>
-            <a class="contact__v link" href="mailto:sunaide@naver.com">sunaide@naver.com</a>
-          </div>
-          <div class="contact__card">
-            <span class="contact__k">연락처</span>
-            <a class="contact__v link" href="tel:01080992842">010-8099-2842</a>
-          </div>
-          <div class="contact__card">
-            <span class="contact__k">사는 곳</span>
-            <span class="contact__v">경기도 김포시</span>
-          </div>
+        <div class="contactPro reveal">
+          <div class="contactPro__left">
+            <h3 class="contactPro__title">Contact Me</h3>
+            <p class="muted">연락 가능한 정보입니다.</p>
+
+            <div class="cinfo">
+              <div class="cinfo__row">
+                <span class="cinfo__icon" aria-hidden="true">✉</span>
+                <a class="link" href="mailto:sunaide@naver.com">sunaide@naver.com</a>
+              </div>
+              <div class="cinfo__row">
+                <span class="cinfo__icon" aria-hidden="true">☎</span>
+                <a class="link" href="tel:01080992842">010-8099-2842</a>
+              </div>
+              <div class="cinfo__row">
+                <span class="cinfo__icon" aria-hidden="true">⌂</span>
+                <span>경기도 김포시</span>
+              </div>
+            </div>
+</div>
+
+          <form class="contactPro__form" id="contactForm" action="https://formsubmit.co/sunaide@naver.com" method="POST">
+            <input type="hidden" name="_subject" value="[Portfolio Contact] New message" />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_template" value="table" />
+
+            <label class="field">
+              <span class="field__label">Your Name</span>
+              <input type="text" name="name" autocomplete="name" placeholder="Your Name" required />
+            </label>
+
+            <label class="field">
+              <span class="field__label">Your Email</span>
+              <input type="email" name="email" autocomplete="email" placeholder="Your Email" required />
+            </label>
+
+            <label class="field">
+              <span class="field__label">Phone</span>
+              <input type="tel" name="phone" autocomplete="tel" placeholder="010-0000-0000" />
+            </label>
+
+            <label class="field field--area">
+              <span class="field__label">Your Message</span>
+              <textarea name="message" placeholder="Your Message" rows="7" required></textarea>
+            </label>
+
+            <div class="form__actions">
+              <button class="btn" type="submit">Send</button>
+              <p class="form__hint muted">* 입력하신 내용은 이메일로 전송됩니다. (스팸함도 확인해주세요)</p>
+            </div>
+          </form>
         </div>
       </div>
     </section>
@@ -535,12 +506,17 @@
     <div class="modal__overlay" data-close></div>
     <div class="modal__panel" role="document">
       <button class="modal__close" type="button" aria-label="닫기" data-close>✕</button>
+      <button class="modal__nav modal__nav--prev" type="button" aria-label="이전 이미지">‹</button>
+      <button class="modal__nav modal__nav--next" type="button" aria-label="다음 이미지">›</button>
       <div class="modal__head">
         <h3 id="modalTitle">Project</h3>
         <p id="modalTools" class="muted">Tools</p>
       </div>
       <div class="modal__body">
-        <img id="modalImg" src="" alt="" />
+        <figure class="modal__figure">
+          <img id="modalImg" src="" alt="" />
+          <figcaption id="modalCaption" class="modal__caption muted"></figcaption>
+        </figure>
       </div>
     </div>
   </div>
